@@ -1,0 +1,29 @@
+<html>
+<head>
+<link rel="stylesheet" href="firstPageCSS.css">
+<title>Voter Information Page</title>
+</head>
+<h1>
+  Voting Location List
+</h1>
+<form>
+<label for="languageSelect">
+Preferred Language:</label>
+<select name="preferredLanguage" id="languageSelect">
+  <option value="">--Please choose an option--</option>
+    <option value="Russian">Russian</option>
+    <option value="Polish">Polish</option>
+    <option value="Arabic">Arabic</option>
+    <option value="French">French</option>
+    <option value="Bengali">Bengali</option>
+    <option value="Chinese">Chinese</option>
+    <option value="Urdu">Urdu</option>
+    <option value="Yiddish">Yiddish</option>
+    <option value="Italian">Italian</option>
+    <option value="Haitian">Haitian</option>
+    <option value="Korean">Korean</option>
+
+</select>
+<button type="submit" formaction="http://localhost:8090/demo/firstPagePy.py?preferredLanguage=Polish"> Submit preference </button>
+</form>
+</html>
